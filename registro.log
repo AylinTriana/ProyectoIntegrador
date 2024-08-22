@@ -1,0 +1,135 @@
+[2024-08-15 21:41:08] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-15 21:42:19] [ INFO ] [PacienteDAOH2:110] iniciando las operaciones de busqueda de : helen@helen.com
+[2024-08-15 21:42:19] [ ERROR] [PacienteDAOH2:126] Error en la conexion: Conversión de datos fallida, convirtiendo "helen@helen.com"
+Data conversion error converting "helen@helen.com"; SQL statement:
+SELECT * FROM PACIENTES WHERE ID=? [22018-224]
+[2024-08-15 21:42:19] [ WARN ] [PacienteDAOH2:131] busqueda sin resultados coincidentesnull
+[2024-08-15 21:44:46] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-15 21:45:05] [ INFO ] [PacienteDAOH2:110] iniciando las operaciones de busqueda de : helen@helen.com
+[2024-08-15 21:45:05] [ INFO ] [DomicilioDAOH2:49] iniciando las operaciones de : busqueda de un domicilio con ID: 2
+[2024-08-15 21:45:05] [ INFO ] [PacienteDAOH2:129] busqueda exitosa: helen@helen.comNombre y Apellido: Helen Vasquez
+[2024-08-15 21:48:23] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-15 21:48:37] [ INFO ] [PacienteDAOH2:110] iniciando las operaciones de busqueda de : helen@helen.com
+[2024-08-15 21:48:37] [ INFO ] [DomicilioDAOH2:49] iniciando las operaciones de : busqueda de un domicilio con ID: 2
+[2024-08-15 21:48:37] [ INFO ] [PacienteDAOH2:129] busqueda exitosa:  Nombre y Apellido: Helen Vasquez
+[2024-08-15 21:48:49] [ INFO ] [PacienteDAOH2:110] iniciando las operaciones de busqueda de : julian@julian.com
+[2024-08-15 21:48:49] [ INFO ] [DomicilioDAOH2:49] iniciando las operaciones de : busqueda de un domicilio con ID: 1
+[2024-08-15 21:48:49] [ INFO ] [PacienteDAOH2:129] busqueda exitosa:  Nombre y Apellido: Julian Espinoza
+[2024-08-15 21:49:04] [ INFO ] [PacienteDAOH2:110] iniciando las operaciones de busqueda de : julian@ju
+[2024-08-15 21:49:04] [ WARN ] [PacienteDAOH2:131] busqueda sin resultados coincidentesnull
+[2024-08-15 21:52:27] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-15 21:52:36] [ INFO ] [PacienteDAOH2:110] iniciando las operaciones de busqueda de : julian@ju
+[2024-08-15 21:52:36] [ WARN ] [PacienteDAOH2:131] busqueda sin resultados coincidentes: null
+[2024-08-15 22:43:35] [ INFO ] [BD:31] datos cargados con exito
+[2024-08-15 22:48:05] [ INFO ] [BD:31] datos cargados con exito
+[2024-08-15 22:49:44] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 22:50:57] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 22:54:15] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 22:56:09] [ INFO ] [PacienteDAOH2:117] iniciando las operaciones de busqueda de : helen@helen.com
+[2024-08-15 22:56:09] [ INFO ] [DomicilioDAOH2:49] iniciando las operaciones de : busqueda de un domicilio con ID: 2
+[2024-08-15 22:56:09] [ INFO ] [PacienteDAOH2:137] busqueda exitosa:  Nombre y Apellido: Helen Vasquez
+[2024-08-15 22:56:40] [ INFO ] [OdontologoDAOH2:75] iniciando las operaciones de : busqueda  de un odontologo: 1
+[2024-08-15 23:04:20] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:04:26] [ INFO ] [OdontologoDAOH2:75] iniciando las operaciones de : busqueda  de un odontologo: 1
+[2024-08-15 23:04:26] [ INFO ] [OdontologoDAOH2:87] com.example.ClinicaOdontologicaSpringMVC.Model.Odontologo@6de858e2
+[2024-08-15 23:05:03] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:05:07] [ INFO ] [OdontologoDAOH2:75] iniciando las operaciones de : busqueda  de un odontologo: 1
+[2024-08-15 23:05:07] [ INFO ] [OdontologoDAOH2:87] Odontologo{id=2367, numeroMatricula=1, nombre='Alfredo', apellido='Remo'}
+[2024-08-15 23:09:17] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:09:20] [ INFO ] [OdontologoDAOH2:75] iniciando las operaciones de : busqueda  de un odontologo: 1
+[2024-08-15 23:09:20] [ INFO ] [OdontologoDAOH2:87] Odontologo{id=2367, numeroMatricula=1, nombre='Alfredo', apellido='Remo'}
+[2024-08-15 23:11:45] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:11:45] [ INFO ] [OdontologoDAOH2:53] iniciando las operaciones de : listar
+[2024-08-15 23:11:45] [ INFO ] [OdontologoDAOH2:65] Carga de Lista Odontologos existosa
+[2024-08-15 23:13:44] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:13:44] [ INFO ] [OdontologoDAOH2:53] iniciando las operaciones de : listar
+[2024-08-15 23:13:44] [ INFO ] [OdontologoDAOH2:65] Carga de Lista Odontologos existosa
+[2024-08-15 23:13:44] [ INFO ] [ClinicaOdontologicaSpringMvcApplicationTests:29] [Odontologo{id=2367, numeroMatricula=1, nombre='Alfredo', apellido='Remo'}, Odontologo{id=2981, numeroMatricula=2, nombre='Sofia', apellido='Vuela'}]
+[2024-08-15 23:16:15] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:16:15] [ INFO ] [OdontologoDAOH2:53] iniciando las operaciones de : listar
+[2024-08-15 23:16:15] [ INFO ] [OdontologoDAOH2:65] Carga de Lista Odontologos existosa
+[2024-08-15 23:16:15] [ INFO ] [ClinicaOdontologicaSpringMvcApplicationTests:29] [Odontologo{id=2367, numeroMatricula=1, nombre='Alfredo', apellido='Remo'}, Odontologo{id=2981, numeroMatricula=2, nombre='Sofia', apellido='Vuela'}]
+[2024-08-15 23:16:24] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:16:24] [ INFO ] [OdontologoDAOH2:53] iniciando las operaciones de : listar
+[2024-08-15 23:16:24] [ INFO ] [OdontologoDAOH2:65] Carga de Lista Odontologos existosa
+[2024-08-15 23:16:24] [ INFO ] [ClinicaOdontologicaSpringMvcApplicationTests:29] [Odontologo{id=2367, numeroMatricula=1, nombre='Alfredo', apellido='Remo'}, Odontologo{id=2981, numeroMatricula=2, nombre='Sofia', apellido='Vuela'}]
+[2024-08-15 23:20:06] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:20:06] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de : guardado de: Romeo
+[2024-08-15 23:20:06] [ INFO ] [OdontologoDAOH2:32] Carga exitosa
+[2024-08-15 23:20:43] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:20:43] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de : guardado de: Romeo
+[2024-08-15 23:20:43] [ INFO ] [OdontologoDAOH2:32] Carga exitosa
+[2024-08-15 23:20:43] [ INFO ] [ClinicaOdontologicaSpringMvcApplicationTests:32] Odontologo{id=9870, numeroMatricula=3, nombre='Romeo', apellido='Santos'}
+[2024-08-15 23:22:53] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:22:53] [ INFO ] [OdontologoDAOH2:53] iniciando las operaciones de : listar
+[2024-08-15 23:22:53] [ INFO ] [OdontologoDAOH2:65] Carga de Lista Odontologos existosa
+[2024-08-15 23:22:53] [ INFO ] [ClinicaOdontologicaSpringMvcApplicationTests:41] [Odontologo{id=1, numeroMatricula=2367, nombre='Alfredo', apellido='Remo'}, Odontologo{id=2, numeroMatricula=2981, nombre='Sofia', apellido='Vuela'}]
+[2024-08-15 23:23:09] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:23:09] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de : guardado de: Romeo
+[2024-08-15 23:23:09] [ INFO ] [OdontologoDAOH2:32] Carga exitosa
+[2024-08-15 23:23:09] [ INFO ] [ClinicaOdontologicaSpringMvcApplicationTests:32] Odontologo{id=3, numeroMatricula=9870, nombre='Romeo', apellido='Santos'}
+[2024-08-15 23:27:07] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:27:13] [ INFO ] [OdontologoDAOH2:75] iniciando las operaciones de : busqueda  de un odontologo: 1
+[2024-08-15 23:27:13] [ INFO ] [OdontologoDAOH2:87] Odontologo{id=1, numeroMatricula=2367, nombre='Alfredo', apellido='Remo'}
+[2024-08-15 23:27:15] [ INFO ] [OdontologoDAOH2:75] iniciando las operaciones de : busqueda  de un odontologo: 1
+[2024-08-15 23:27:15] [ INFO ] [OdontologoDAOH2:87] Odontologo{id=1, numeroMatricula=2367, nombre='Alfredo', apellido='Remo'}
+[2024-08-15 23:28:30] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 23:28:34] [ INFO ] [OdontologoDAOH2:75] iniciando las operaciones de : busqueda  de un odontologo: 1
+[2024-08-15 23:28:34] [ INFO ] [OdontologoDAOH2:87] Odontologo{id=1, numeroMatricula=2367, nombre='Alfredo', apellido='Remo'}
+[2024-08-20 20:49:37] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 20:50:59] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 20:51:38] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 21:58:44] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 22:05:48] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 22:29:26] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 22:40:08] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 22:40:19] [ INFO ] [OdontologoDAOH2:53] iniciando las operaciones de : listar
+[2024-08-20 22:40:19] [ INFO ] [OdontologoDAOH2:65] Carga de Lista Odontologos existosa
+[2024-08-20 22:40:57] [ INFO ] [OdontologoDAOH2:75] iniciando las operaciones de : busqueda  de un odontologo: 1
+[2024-08-20 22:40:57] [ INFO ] [OdontologoDAOH2:87] Odontologo{id=1, numeroMatricula=2367, nombre='Alfredo', apellido='Remo'}
+[2024-08-20 22:42:11] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de : guardado de: Alf
+[2024-08-20 22:42:11] [ INFO ] [OdontologoDAOH2:32] Carga exitosa
+[2024-08-20 22:42:20] [ INFO ] [OdontologoDAOH2:53] iniciando las operaciones de : listar
+[2024-08-20 22:42:20] [ INFO ] [OdontologoDAOH2:65] Carga de Lista Odontologos existosa
+[2024-08-20 22:51:36] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 22:52:02] [ INFO ] [OdontologoDAOH2:23] iniciando las operaciones de : guardado de: Alf
+[2024-08-20 22:52:02] [ INFO ] [OdontologoDAOH2:34] Carga exitosa
+[2024-08-20 22:52:06] [ INFO ] [OdontologoDAOH2:67] iniciando las operaciones de : listar
+[2024-08-20 22:52:06] [ INFO ] [OdontologoDAOH2:79] Carga de Lista Odontologos existosa
+[2024-08-20 22:53:02] [ INFO ] [OdontologoDAOH2:50] iniciando las operaciones de : eliminado de: odontologo ID:3
+[2024-08-20 22:53:02] [ ERROR] [OdontologoDAOH2:60] problemas con la BDError de Sintaxis en sentencia SQL "DELETE [*]* FROM ODONTOLOGOS WHERE ID = ?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM ODONTOLOGOS WHERE ID = ?"; expected "identifier"; SQL statement:
+DELETE * FROM ODONTOLOGOS WHERE ID = ? [42001-224]
+[2024-08-20 22:53:10] [ INFO ] [OdontologoDAOH2:67] iniciando las operaciones de : listar
+[2024-08-20 22:53:10] [ INFO ] [OdontologoDAOH2:79] Carga de Lista Odontologos existosa
+[2024-08-20 22:54:23] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 22:54:30] [ INFO ] [OdontologoDAOH2:67] iniciando las operaciones de : listar
+[2024-08-20 22:54:30] [ INFO ] [OdontologoDAOH2:79] Carga de Lista Odontologos existosa
+[2024-08-20 22:54:38] [ INFO ] [OdontologoDAOH2:23] iniciando las operaciones de : guardado de: Alf
+[2024-08-20 22:54:38] [ INFO ] [OdontologoDAOH2:34] Carga exitosa
+[2024-08-20 22:54:43] [ INFO ] [OdontologoDAOH2:67] iniciando las operaciones de : listar
+[2024-08-20 22:54:43] [ INFO ] [OdontologoDAOH2:79] Carga de Lista Odontologos existosa
+[2024-08-20 22:54:53] [ INFO ] [OdontologoDAOH2:50] iniciando las operaciones de : eliminado de: odontologo ID:3
+[2024-08-20 22:54:53] [ INFO ] [OdontologoDAOH2:57] Eliminado exitoso
+[2024-08-20 22:55:12] [ INFO ] [OdontologoDAOH2:67] iniciando las operaciones de : listar
+[2024-08-20 22:55:12] [ INFO ] [OdontologoDAOH2:79] Carga de Lista Odontologos existosa
+[2024-08-20 22:59:49] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 22:59:57] [ INFO ] [OdontologoDAOH2:68] iniciando las operaciones de : listar
+[2024-08-20 22:59:57] [ INFO ] [OdontologoDAOH2:80] Carga de Lista Odontologos existosa
+[2024-08-20 23:00:00] [ INFO ] [OdontologoDAOH2:23] iniciando las operaciones de : guardado de: Alf
+[2024-08-20 23:00:00] [ INFO ] [OdontologoDAOH2:34] Carga exitosa
+[2024-08-20 23:00:07] [ INFO ] [OdontologoDAOH2:68] iniciando las operaciones de : listar
+[2024-08-20 23:00:07] [ INFO ] [OdontologoDAOH2:80] Carga de Lista Odontologos existosa
+[2024-08-20 23:00:23] [ INFO ] [OdontologoDAOH2:50] iniciando las operaciones de : eliminado de: odontologo ID:3
+[2024-08-20 23:00:23] [ ERROR] [OdontologoDAOH2:61] problemas con la BDMetodo permitido unicamente en un query. Use execute ó executeUpdate en lugar de executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+DELETE FROM ODONTOLOGOS WHERE ID = ? [90002-224]
+[2024-08-20 23:01:39] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-20 23:01:52] [ INFO ] [OdontologoDAOH2:68] iniciando las operaciones de : listar
+[2024-08-20 23:01:52] [ INFO ] [OdontologoDAOH2:80] Carga de Lista Odontologos existosa
+[2024-08-20 23:01:58] [ INFO ] [OdontologoDAOH2:23] iniciando las operaciones de : guardado de: Alf
+[2024-08-20 23:01:58] [ INFO ] [OdontologoDAOH2:34] Carga exitosa
+[2024-08-20 23:02:25] [ INFO ] [OdontologoDAOH2:50] iniciando las operaciones de : eliminado de: odontologo ID:3
+[2024-08-20 23:02:25] [ INFO ] [OdontologoDAOH2:58] Eliminado exitoso
+[2024-08-20 23:02:46] [ INFO ] [OdontologoDAOH2:68] iniciando las operaciones de : listar
+[2024-08-20 23:02:46] [ INFO ] [OdontologoDAOH2:80] Carga de Lista Odontologos existosa
