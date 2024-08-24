@@ -5,15 +5,16 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDate;
+
 @Getter
 @Setter
 @AllArgsConstructor
 @Data
-public class Domicilio {
+public class Turno {
     private Integer id;
-    private String calle;
-    private Integer numero;
-    private String localidad;
-    private String provincia;
+    private Paciente paciente;
+    private Odontologo odontologo;
+    private LocalDate fecha;
 
 }

@@ -1,7 +1,10 @@
 package com.example.ClinicaOdontologicaSpringMVC.Controller;
 
+
+import com.example.ClinicaOdontologicaSpringMVC.Model.Domicilio;
 import com.example.ClinicaOdontologicaSpringMVC.Model.Paciente;
 import com.example.ClinicaOdontologicaSpringMVC.Service.PacienteService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -16,27 +19,31 @@ public class PacienteController {
     }
 
   @PostMapping
-    public Paciente guardarPaciente(@RequestBody Paciente paciente){
-        return pacienteService.guardarPaciente(paciente);
+  public ResponseEntity<Paciente> guardarPaciente(@RequestBody Paciente paciente){
+      return ResponseEntity.ok(pacienteService.guardarPaciente(paciente));
+  }
+
+  @PutMapping
+  public ResponseEntity<Void> actualizarPaciente(@RequestBody Paciente paciente) {
+      pacienteService.actualizarPaciente(paciente);
+      return ResponseEntity.noContent().build();
   }
 
   @GetMapping("/{id}")
-  public Paciente buscarPacienteID(@PathVariable Integer id){
-      return pacienteService.buscarPorID(id);
+  public ResponseEntity<Paciente> buscarPacienteID(@PathVariable Integer id) {
+      return ResponseEntity.ok(pacienteService.buscarPorID(id));
   }
 
-  @GetMapping("/eliminar/{id}")
-  public void eliminarPacienteID(@PathVariable Integer id){
+
+  @DeleteMapping("/eliminar/{id}")
+  public ResponseEntity<Void> eliminarPacienteID(@PathVariable Integer id) {
         pacienteService.eliminarPacienteID(id);
+        return ResponseEntity.noContent().build();
   }
 
   @GetMapping
-    public List<Paciente> listarTodos(){
-      return pacienteService.listarTodos();
+    public ResponseEntity<List<Paciente>> listarTodos() {
+      return ResponseEntity.ok(pacienteService.listarTodos());
   }
 
-/* @PutMapping
-  public String actualizarPaciente(Paciente paciente){
-        return pacienteService.
-  }*/
 }
