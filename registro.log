@@ -1041,3 +1041,13 @@ INSERT INTO ODONTOLOGOS (NOMBRE, APELLIDO, MATRICULA) VALUES(?,?,?) [23502-224]
 [2024-08-24 14:59:27] [ INFO ] [OdontologoDAOH2:84] iniciando las operaciones de : listar los odontologos: 
 [2024-08-24 14:59:27] [ INFO ] [OdontologoDAOH2:96] Carga de Lista Odontologos existosa
 [2024-08-24 15:00:13] [ INFO ] [BD:32] datos cargados con exito
+[2024-08-24 15:07:23] [ INFO ] [BD:32] datos cargados con exito
+[2024-08-24 15:08:33] [ INFO ] [PacienteDAOH2:23] iniciando las operaciones de guardado de un paciente
+[2024-08-24 15:08:33] [ INFO ] [DomicilioDAOH2:24] iniciando las operaciones de : guardado de un domicilio
+[2024-08-24 15:08:33] [ INFO ] [DomicilioDAOH2:38] domicilio persistido
+[2024-08-24 15:08:33] [ INFO ] [PacienteDAOH2:41] paciente registrado: ID: 3 con domicilio asignado: 3
+[2024-08-24 15:08:43] [ INFO ] [PacienteDAOH2:145] iniciando las operaciones de : listar
+[2024-08-24 15:08:43] [ INFO ] [DomicilioDAOH2:103] iniciando las operaciones de : busqueda de un domicilio con ID: 1
+[2024-08-24 15:08:43] [ INFO ] [DomicilioDAOH2:103] iniciando las operaciones de : busqueda de un domicilio con ID: 2
+[2024-08-24 15:08:43] [ INFO ] [DomicilioDAOH2:103] iniciando las operaciones de : busqueda de un domicilio con ID: 3
+[2024-08-24 15:08:43] [ INFO ] [PacienteDAOH2:161] Carga de Lista pacientes existosa
